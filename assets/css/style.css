@@ -10696,6 +10696,201 @@ opacity: 0.6;
 /* Submenu items - White text and dark background */
 .ht-main-navigation ul ul {
     background-color: #222 !important;
+.ht-slide-cap-desc.animated.fadeInDown {
+    font-size: 9px;
+    line-height: 10px;
+}
+.sliderbtn .ht-slide-cap-descmore a {
+    padding: 2px 10px;
+    font-size: 8px;
+}
+}
+@media screen and (min-width: 320px) and (max-width: 380px){
+.ht-slide-cap-desc.animated.fadeInDown {
+    font-size: 10px;
+}
+.ht-slide-cap-title {
+    margin-bottom: 0px;
+    font-size: 14px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 375px){
+.ht-slide-cap-title.animated.fadeInDown {
+    font-size: 18px;
+}
+.ht-slide-cap-desc.animated.fadeInDown{
+     font-size: 15px;
+}
+#quote-carousel .carousel-control.left {
+    left: 32%;
+}
+#quote-carousel .carousel-control.right {
+    right: 32%;
+}
+#ht-newslatter-section .ht-section-title {
+       font-size: 20px;
+    padding-top: 3px;
+}
+#ht-newslatter-section .news-img img {
+    width: 80px;
+    height: 25px;
+}
+#product-category-section .owl-nav button.owl-prev span {
+    left: 39%; 
+    }
+    #product-category-section .owl-nav button.owl-next span {
+        right: 33%;
+    }
+    .ht-main-navigation ul {
+        overflow: hidden;
+    }
+    .teamwavecurve, .featureprodwavecurve {
+        top: -20px;
+    }
+    #ht-gallery-section .slider .slide-item {
+        margin-right: 0px;
+        width: 300px;
+    }
+    #ht-contactus-wrap .contact-sm-links li a.fb {
+        padding: 14px 11px;
+    }
+    .contact-sm-links li a {
+        padding: 14px 11px;
+    }
+    .page-template-contact-template .innerpage-whitebox {
+        padding: 2em 1em;
+    }
+    #ht-contactus-wrap .contact-page-form {
+        padding: 1em 0;
+    }
+   #ht-site-navigation .sf-arrows .sf-with-ul {
+        padding-right: 0;
+    }
+    #coupon_code {
+    width: 100% !important;
+}
+.woocommerce #content table.cart td.actions .coupon .button , .woocommerce table.cart td.actions .coupon .button{
+    width: 100% !important;
+        margin: 10px 0 0;
+}
+#testimonials-section .test-contentbox:after {
+    left: 36%;
+}
+#testimonials-section .test-contentbox {
+    padding: 50px 35px;
+}
+#ht-gallery-section .lz-gallery-images img, #ht-gallery-section .ht-gallery-member-image img {
+    width: 100%;
+    height: 100px;
+}
+
+}
+@media screen and (min-width: 320px) and (max-width: 425px){
+    .test-thumb {
+        left: 36%;
+    }
+    .sect-height-appointment-box {
+        padding: 0;
+        padding-top: 30px;
+    }
+    .sect-height-appointment-section {
+        padding: 25px 0;
+    }
+    .ht-section-title {
+        font-size:22px;
+    }
+    #innerpage-box .testimonial-contentbox {
+        padding: 15px;
+        margin: 10px 0px;
+    }
+    .ht-slide-cap-title {
+        padding: 0;
+        margin-bottom: 5px;
+    }
+    .blogwavecurve {
+        top: -20px !important;
+    }
+}
+
+/**/
+section#ht-appintment-section .ht-appintment-member-wrap input[type="submit"] {
+    color: #fff;
+    font-weight: 500;
+    opacity: 1;
+    margin: 0 auto;
+    display: block;
+    margin-top: 15px;
+    background: #01beff;
+    border: 1px solid #01beff;
+    border-radius: 50px;
+    font-size: 15px;
+    height: 45px;
+    -webkit-transition: transform 0.5s ease-out;
+    transition: transform 0.5s ease-out;
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+    position: relative;
+    padding: 6px 30px 9px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+section#ht-appintment-section .ht-appintment-member-wrap input[type="submit"]:hover{
+    color: #fff;
+    background: #ff6796;
+    transform: translateY(-10px);
+}
+
+.wp-block-gallery.columns-3 .blocks-gallery-image, .wp-block-gallery.columns-3 .blocks-gallery-item {
+    max-width: 100% !important;
+}
+#content-box ul li.blocks-gallery-item {
+    margin: 0 3px 5px;
+}
+
+#content-box ul li.blocks-gallery-item:before {
+display: none;
+}
+.wp-block-gallery.is-cropped .blocks-gallery-image a, 
+.wp-block-gallery.is-cropped .blocks-gallery-image img, 
+.wp-block-gallery.is-cropped .blocks-gallery-item a, 
+.wp-block-gallery.is-cropped .blocks-gallery-item img {
+    max-width: 100% !important;
+}
+.gallery-item .gallery-icon a img {
+    width:100%;
+}
+.wp-block-gallery.is-cropped .blocks-gallery-image a, 
+.wp-block-gallery.is-cropped .blocks-gallery-image img:hover, 
+.wp-block-gallery.is-cropped .blocks-gallery-item a, 
+.wp-block-gallery.is-cropped .blocks-gallery-item img:hover {
+opacity: 0.6;
+}
+.gallery-item .gallery-icon a img:hover {
+opacity: 0.6;
+}
+
+/* FIX: Header background white, but Menu background dark for white text */
+#ht-masthead {
+    background-color: #fff !important;
+    background-image: none !important;
+}
+
+/* Navigation bar specific styling */
+.ht-main-navigation {
+    background-color: #222 !important;
+    width: 100%;
+}
+
+/* Main menu items - White text */
+.ht-main-navigation a {
+    color: #fff !important;
+}
+
+/* Submenu items - White text and dark background */
+.ht-main-navigation ul ul {
+    background-color: #222 !important;
 }
 .ht-main-navigation ul ul a {
     color: #fff !important;
@@ -10706,4 +10901,12 @@ opacity: 0.6;
 .ht-main-navigation ul ul a:hover {
     color: #fff !important; /* No blue change */
     opacity: 0.8; /* Subtle opacity change instead */
+}
+
+/* Selected/Active submenu item - Light Orange */
+.ht-main-navigation ul ul .current_page_item > a,
+.ht-main-navigation ul ul .current-menu-item > a,
+.ht-main-navigation ul ul .current_page_ancestor > a {
+    color: #ffc107 !important; /* Light Orange */
+    background-color: transparent !important;
 }
