@@ -1,0 +1,18 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Editor directories
+.vscode/
+.idea/
+
+# Large design files (optional, but recommended to keep repo light)
+*.psd
+*.ai
+
+# Node (future proofing)
+node_modules/
+dist/
